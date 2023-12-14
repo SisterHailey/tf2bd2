@@ -6,7 +6,7 @@
 		],
 		"description": "Official player blacklist for TF2 Bot Detector.",
 		"title": "Official player blacklist",
-		"update_url": "https://raw.githubusercontent.com/PazerOP/tf2_bot_detector/master/staging/cfg/playerlist.official.json"
+		"update_url": "https://raw.githubusercontent.com/SisterHailey/tf2bd2/main/playerlist.official.json"
 	},
 	"players": [
 		{

@@ -6,7 +6,7 @@
 		],
 		"description": "Rich presence settings for TF2 Bot Detector.",
 		"title": "Rich presence settings",
-		"update_url": "https://raw.githubusercontent.com/PazerOP/tf2_bot_detector/master/staging/cfg/discord_rich_presence.json"
+		"update_url": "https://raw.githubusercontent.com/SisterHailey/tf2bd2/main/discord_rich_presence.json"
 	},
 	"maps": {
 		"cp_5gorge": {},

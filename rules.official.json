@@ -6,7 +6,7 @@
 		],
 		"description": "Official rules list for TF2 Bot Detector.",
 		"title": "Official rules list",
-		"update_url": "https://raw.githubusercontent.com/PazerOP/tf2_bot_detector/master/staging/cfg/rules.official.json"
+		"update_url": "https://raw.githubusercontent.com/SisterHailey/tf2bd2/main/rules.official.json"
 	},
 	"rules": [
 		{
