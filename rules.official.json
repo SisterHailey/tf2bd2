@@ -6,7 +6,7 @@
 		],
 		"description": "Official rules list for TF2 Bot Detector.",
 		"title": "Official rules list",
-		"update_url": "https://raw.githubusercontent.com/PazerOP/tf2_bot_detector/master/staging/cfg/rules.official.json"
+		"update_url": "https://raw.githubusercontent.com/SisterHailey/tf2bd2/main/rules.official.json"
 	},
 	"rules": [
 		{
@@ -24,7 +24,8 @@
 						"MYG)T",
 						"[t0gym]",
 						"[g0tb0t]",
-						"myg0t.gg"
+						"myg0t.gg",
+						"myg0t.win"
 					]
 				}
 			}
@@ -460,6 +461,171 @@
 						"avatar_hash": "b98a862b985db1f08d97a8b537f6cd394a460cab"
 					}
 				]
+			}
+		},
+		{
+			"actions": {
+				"mark": [
+					"cheater"
+				]
+			},
+			"description": "Dox bot",
+			"triggers": {
+				"avatar_match": [
+					{
+						"avatar_hash": "0a05c28558b19cdff2a52acfbc4dcf3bbc1962cd"
+					}
+				],
+				"mode": "match_all",
+				"username_text_match": {
+					"case_sensitive": false,
+					"mode": "contains",
+					"patterns": [
+						"bit.ly"
+					]
+				}
+			}
+		},
+		{
+			"actions": {
+				"mark": [
+					"cheater"
+				]
+			},
+			"description": "LunaRP bot",
+			"triggers": {
+				"avatar_match": [
+					{
+						"avatar_hash": "b320273dc057bfa03cef2422c69c686aa1f3660e"
+					}
+				],
+				"mode": "match_all",
+				"username_text_match": {
+					"case_sensitive": true,
+					"mode": "contains",
+					"patterns": [
+						"discord.gg/6TsYkfQbKk"
+					]
+				}
+			}
+		},
+		{
+			"actions": {
+				"mark": [
+					"cheater"
+				]
+			},
+			"description": "HE",
+			"triggers": {
+				"mode": "match_any",
+				"username_text_match": {
+					"case_sensitive": false,
+					"mode": "contains",
+					"patterns": [
+						"shoppy.gg/@d3fc0n6"
+					]
+				}
+			}
+		},
+		{
+			"actions": {
+				"mark": [
+					"cheater"
+				]
+			},
+			"description": "HE",
+			"triggers": {
+				"mode": "match_any",
+				"username_text_match": {
+					"case_sensitive": false,
+					"mode": "contains",
+					"patterns": [
+						"OMEGATRONIC"
+					]
+				}
+			}
+		},
+		{
+			"actions": {
+				"mark": [
+					"cheater"
+				]
+			},
+			"description": "HE",
+			"triggers": {
+				"mode": "match_any",
+				"username_text_match": {
+					"case_sensitive": false,
+					"mode": "contains",
+					"patterns": [
+						"HEXATRONIC"
+					]
+				}
+			}
+		},
+		{
+			"actions": {
+				"transient_mark": [
+					"cheater"
+				]
+			},
+			"description": "Default sniper",
+			"triggers": null
+		},
+		{
+			"actions": {
+				"transient_mark": [
+					"cheater"
+				]
+			},
+			"description": "Default namestealer",
+			"triggers": null
+		},
+		{
+			"actions": {
+				"transient_mark": [
+					"cheater"
+				]
+			},
+			"description": "OG Fuck Nemo",
+			"triggers": null
+		},
+		{
+			"actions": {
+				"mark": [
+					"cheater"
+				]
+			},
+			"description": "Fuck Nemo",
+			"triggers": {
+				"avatar_match": [
+					{
+						"avatar_hash": "619e9476fe120c56afb7dfaac6a0bdc1b306360d"
+					}
+				]
+			}
+		},
+		{
+			"actions": {
+				"mark": [
+					"cheater"
+				]
+			},
+			"description": "rapha. bot",
+			"triggers": {
+				"avatar_match": [
+					{
+						"avatar_hash": "25f543efdffaa2553c16da12d87d68ff93a923cf"
+					}
+				],
+				"mode": "match_all",
+				"username_text_match": {
+					"case_sensitive": true,
+					"mode": "contains",
+					"patterns": [
+						"rapha."
+					]
+				}
 			}
 		}
 	]
