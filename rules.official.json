@@ -511,6 +511,60 @@
 		},
 		{
 			"actions": {
+				"mark": [
+					"cheater"
+				]
+			},
+			"description": "HE",
+			"triggers": {
+				"mode": "match_any",
+				"username_text_match": {
+					"case_sensitive": false,
+					"mode": "contains",
+					"patterns": [
+						"shoppy.gg/@d3fc0n6"
+					]
+				}
+			}
+		},
+		{
+			"actions": {
+				"mark": [
+					"cheater"
+				]
+			},
+			"description": "HE",
+			"triggers": {
+				"mode": "match_any",
+				"username_text_match": {
+					"case_sensitive": false,
+					"mode": "contains",
+					"patterns": [
+						"OMEGATRONIC"
+					]
+				}
+			}
+		},
+		{
+			"actions": {
+				"mark": [
+					"cheater"
+				]
+			},
+			"description": "HE",
+			"triggers": {
+				"mode": "match_any",
+				"username_text_match": {
+					"case_sensitive": false,
+					"mode": "contains",
+					"patterns": [
+						"HEXATRONIC"
+					]
+				}
+			}
+		}
+		{
+			"actions": {
 				"transient_mark": [
 					"cheater"
 				]
