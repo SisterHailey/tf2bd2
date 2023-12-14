@@ -645,6 +645,21 @@
 					]
 				}
 			}
+		},
+		{
+			"actions": {
+				"mark": ["cheater"]
+			},
+			"description": "HE",
+			"triggers": {
+				"username_text_match": {
+					"case_sensitive": false,
+					"mode": "regex",
+					"patterns": [
+						"S\\s*y\\s*d\\s*n\\s*e\\s*y"
+					]
+				}
+			}
 		}
 	]
 }
