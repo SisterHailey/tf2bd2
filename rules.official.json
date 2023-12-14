@@ -656,7 +656,7 @@
 					"case_sensitive": false,
 					"mode": "regex",
 					"patterns": [
-						"S\\s*y\\s*d\\s*n\\s*e\\s*y"
+						"\\s*S\\s*y\\s*d\\s*n\\s*e\\s*y\\s*"
 					]
 				}
 			}
