@@ -540,6 +540,24 @@
 					"case_sensitive": false,
 					"mode": "contains",
 					"patterns": [
+						"Festive Hitman"
+					]
+				}
+			}
+		},
+		{
+			"actions": {
+				"mark": [
+					"cheater"
+				]
+			},
+			"description": "HE",
+			"triggers": {
+				"mode": "match_any",
+				"username_text_match": {
+					"case_sensitive": false,
+					"mode": "contains",
+					"patterns": [
 						"OMEGATRONIC"
 					]
 				}
