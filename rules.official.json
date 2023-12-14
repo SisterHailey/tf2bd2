@@ -454,13 +454,16 @@
 					"cheater"
 				]
 			},
-			"description": "Festive Hitman",
+			"description": "HE",
 			"triggers": {
-				"avatar_match": [
-					{
-						"avatar_hash": "b98a862b985db1f08d97a8b537f6cd394a460cab"
-					}
-				]
+				"mode": "match_all",
+				"username_text_match": {
+					"case_sensitive": false,
+					"mode": "contains",
+					"patterns": [
+						"Festive Hitman"
+					]
+				}
 			}
 		},
 		{
