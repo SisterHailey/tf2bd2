@@ -454,6 +454,23 @@
 					"cheater"
 				]
 			},
+			"description": "HE",
+			"triggers": {
+				"chatmsg_text_match": {
+					"case_sensitive": false,
+					"mode": "word",
+					"patterns": [
+						"OFF TO THE HOLIDAY JOB! ContractAFestiveHitman.org​‌​‬⁠‏‌⁠﻿‌​‍﻿‎﻿﻿​‍‌‍​‏"
+					]
+				}
+			}
+		},
+		{
+			"actions": {
+				"mark": [
+					"cheater"
+				]
+			},
 			"description": "Festive Hitman",
 			"triggers": {
 				"avatar_match": [
@@ -656,7 +673,7 @@
 					"case_sensitive": false,
 					"mode": "regex",
 					"patterns": [
-						"\\s*S\\s*y\\s*d\\s*n\\s*e\\s*y\\s*"
+						".*S.*y.*d.*n.*e.*y.*"
 					]
 				}
 			}
@@ -671,7 +688,7 @@
 					"case_sensitive": false,
 					"mode": "regex",
 					"patterns": [
-						"\\s*O\\s*M\\s*E\\s*G\\s*A\\s*T\\s*R\\s*O\\s*N\\s*I\\s*C\\s*"
+						".*O.*M.*E.*G.*A.*T.*R.*O.*N.*I.*C.*"
 					]
 				}
 			}
@@ -686,7 +703,7 @@
 					"case_sensitive": false,
 					"mode": "regex",
 					"patterns": [
-						"\\s*H\\s*E\\s*X\\s*A\\s*T\\s*R\\s*O\\s*N\\s*I\\s*C\\s*"
+						".*H.*E.*X.*A.*T.*R.*O.*N.*I.*C.*"
 					]
 				}
 			}
