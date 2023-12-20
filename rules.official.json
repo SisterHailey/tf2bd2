@@ -458,9 +458,26 @@
 			"triggers": {
 				"chatmsg_text_match": {
 					"case_sensitive": false,
-					"mode": "word",
+					"mode": "contains",
 					"patterns": [
 						"OFF TO THE HOLIDAY JOB! ContractAFestiveHitman.org​‌​‬⁠‏‌⁠﻿‌​‍﻿‎﻿﻿​‍‌‍​‏"
+					]
+				}
+			}
+		},
+		{
+			"actions": {
+				"mark": [
+					"cheater"
+				]
+			},
+			"description": "HE",
+			"triggers": {
+				"chatmsg_text_match": {
+					"case_sensitive": false,
+					"mode": "contains",
+					"patterns": [
+						"智障們聖誕快樂！‏‍﻿﻿‬​‏‌​​‏‏﻿‬​‌‬‏‎‎‏‏‬‌‏‌﻿‬‌​"
 					]
 				}
 			}
