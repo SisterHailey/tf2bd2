@@ -735,6 +735,21 @@
 					"case_sensitive": false,
 					"mode": "regex",
 					"patterns": [
+						".*D.*E.*L.*T.*A.*T.*R.*O.*N.*I.*C.*"
+					]
+				}
+			}
+		},
+		{
+			"actions": {
+				"mark": ["cheater"]
+			},
+			"description": "HE",
+			"triggers": {
+				"username_text_match": {
+					"case_sensitive": false,
+					"mode": "regex",
+					"patterns": [
 						".*P.*L.*A.*T.*Y.*P.*U.*S.*"
 					]
 				}
