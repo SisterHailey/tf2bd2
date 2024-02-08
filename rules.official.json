@@ -690,83 +690,11 @@
 					"case_sensitive": false,
 					"mode": "regex",
 					"patterns": [
-						".*S.*y.*d.*n.*e.*y.*"
-					]
-				}
-			}
-		},
-		{
-			"actions": {
-				"mark": ["cheater"]
-			},
-			"description": "HE",
-			"triggers": {
-				"username_text_match": {
-					"case_sensitive": false,
-					"mode": "regex",
-					"patterns": [
-						".*O.*M.*E.*G.*A.*T.*R.*O.*N.*I.*C.*"
-					]
-				}
-			}
-		},
-		{
-			"actions": {
-				"mark": ["cheater"]
-			},
-			"description": "HE",
-			"triggers": {
-				"username_text_match": {
-					"case_sensitive": false,
-					"mode": "regex",
-					"patterns": [
-						".*H.*E.*X.*A.*T.*R.*O.*N.*I.*C.*"
-					]
-				}
-			}
-		},
-		{
-			"actions": {
-				"mark": ["cheater"]
-			},
-			"description": "HE",
-			"triggers": {
-				"username_text_match": {
-					"case_sensitive": false,
-					"mode": "regex",
-					"patterns": [
-						".*D.*E.*L.*T.*A.*T.*R.*O.*N.*I.*C.*"
-					]
-				}
-			}
-		},
-		{
-			"actions": {
-				"mark": ["cheater"]
-			},
-			"description": "HE",
-			"triggers": {
-				"username_text_match": {
-					"case_sensitive": false,
-					"mode": "regex",
-					"patterns": [
-						".*P.*L.*A.*T.*Y.*P.*U.*S.*"
-					]
-				}
-			}
-		},
-		{
-			"actions": {
-				"mark": [
-					"cheater"
-				]
-			},
-			"description": "HE",
-			"triggers": {
-				"username_text_match": {
-					"case_sensitive": false,
-					"mode": "contains",
-					"patterns": [
+						".*S.*y.*d.*n.*e.*y.*",
+						".*O.*M.*E.*G.*A.*T.*R.*O.*N.*I.*C.*",
+						".*H.*E.*X.*A.*T.*R.*O.*N.*I.*C.*",
+						".*D.*E.*L.*T.*A.*T.*R.*O.*N.*I.*C.*",
+						".*P.*L.*A.*T.*Y.*P.*U.*S.*",
 						"innovate.tf"
 					]
 				}
