@@ -2,7 +2,8 @@
 	"$schema": "https://raw.githubusercontent.com/PazerOP/tf2_bot_detector/master/schemas/v3/rules.schema.json",
 	"file_info": {
 		"authors": [
-			"pazer"
+			"pazer",
+			"sisterhailey"
 		],
 		"description": "Community rules list for TF2 Bot Detector.",
 		"title": "Official rules list",
@@ -545,78 +546,6 @@
 		},
 		{
 			"actions": {
-				"mark": [
-					"cheater"
-				]
-			},
-			"description": "HE",
-			"triggers": {
-				"mode": "match_any",
-				"username_text_match": {
-					"case_sensitive": false,
-					"mode": "contains",
-					"patterns": [
-						"shoppy.gg/@d3fc0n6"
-					]
-				}
-			}
-		},
-		{
-			"actions": {
-				"mark": [
-					"cheater"
-				]
-			},
-			"description": "HE",
-			"triggers": {
-				"mode": "match_any",
-				"username_text_match": {
-					"case_sensitive": false,
-					"mode": "contains",
-					"patterns": [
-						"OMEGATRONIC"
-					]
-				}
-			}
-		},
-		{
-			"actions": {
-				"mark": [
-					"cheater"
-				]
-			},
-			"description": "HE",
-			"triggers": {
-				"mode": "match_any",
-				"username_text_match": {
-					"case_sensitive": false,
-					"mode": "contains",
-					"patterns": [
-						"HEXATRONIC"
-					]
-				}
-			}
-		},
-		{
-			"actions": {
-				"mark": [
-					"cheater"
-				]
-			},
-			"description": "HE",
-			"triggers": {
-				"mode": "match_any",
-				"username_text_match": {
-					"case_sensitive": false,
-					"mode": "contains",
-					"patterns": [
-						"Festive Hitman"
-					]
-				}
-			}
-		},
-		{
-			"actions": {
 				"transient_mark": [
 					"cheater"
 				]
@@ -663,6 +592,27 @@
 					"cheater"
 				]
 			},
+			"description": "HE",
+			"triggers": {
+				"mode": "match_any",
+				"username_text_match": {
+					"case_sensitive": false,
+					"mode": "contains",
+					"patterns": [
+						"HEXATRONIC",
+						"Festive Hitman",
+						"OMEGATRONIC",
+						"shoppy.gg/@d3fc0n6"
+					]
+				}
+			}
+		},
+		{
+			"actions": {
+				"mark": [
+					"cheater"
+				]
+			},
 			"description": "rapha. bot",
 			"triggers": {
 				"avatar_match": [
@@ -675,7 +625,8 @@
 					"case_sensitive": true,
 					"mode": "contains",
 					"patterns": [
-						"rapha."
+						"rapha.",
+						"innovate.tf"
 					]
 				}
 			}
@@ -695,8 +646,7 @@
 						".*H.*E.*X.*A.*T.*R.*O.*N.*I.*C.*",
 						".*D.*E.*L.*T.*A.*T.*R.*O.*N.*I.*C.*",
 						".*P.*L.*A.*T.*Y.*P.*U.*S.*",
-						".*A.*r.*e.*n.*a.*t.*e.*a.*m.*p.*l.*a.*y.*e.*r.*",
-						"innovate.tf"
+						".*A.*r.*e.*n.*a.*t.*e.*a.*m.*p.*l.*a.*y.*e.*r.*"
 					]
 				}
 			}
